@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TACONAUTA</title>
+</head>
+<body>
+
+    <h1>AQUI SE HACE EL PEDIDO</h1>
+
+    <form action="pedido.js">
+        <label for="Nmbre">Danos tu nombre </label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <!-- placeholder aparece la palabra "Nombre" en el recuadro del input -->
+        <br><br>
+
+        <label for="mesa"> Tu mesa (el numero está abajo)</label><br>
+        <input type="number" name="mesa" id="mesa" placeholder="4">
+        
+        <br><br>
+
+        <!-- El id es diferente en cada uno  pero el name es el mismo en los tres porque le indicamos al navegador que 
+    son parte del mismo radio group    -->
+        <p>¿Para aquí o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+        <label for="llevar">Llevar</label><br>
+
+        <p>¿Tacos de qué?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuántos?">   
+        <!-- Ctl + D seleccionar todas las "ocurrencias" -->
+
+        <br>
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Venus</label>
+        <input type="number" name="venusCuantos" id="venusCuantos" placeholder="¿Cuántos?">
+
+        <br>
+
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Tierra</label>
+        <input type="number" name="tierraCuantos" id="tierraCuantos" placeholder="¿Cuántos?">
+    
+    
+            <hr>
+        <p>¿Quieres algun paquete?</p>
+        <input type="checkbox" id="paqueteGalaxia" name="paqueteGalaxia" value="PaqueteGalaxia">
+        <label for="paqueteGalaxia">Paquete Galaxia</label>
+
+        <p>¿Tacos de qué?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuántos?">
+
+        <br>
+
+
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Venus</label>
+        <input type="number" name="venusCuantos" id="venusCuantos" placeholder="¿Cuántos?">
+
+        <br>
+
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Tierra</label>
+        <input type="number" name="tierraCuantos" id="tierraCuantos" placeholder="¿Cuántos?">
+
+        <br><br><br>
+
+        <input type="checkbox" id="paqueteEspacial" name="paqueteEspacial" value="PaqueteEspacial">
+        <label for="paqueteEspacial">Paquete Espacial</label>
+
+        <p>¿Tacos de qué?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuántos?">
+
+        <br>
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Venus</label>
+        <input type="number" name="venusCuantos" id="venusCuantos" placeholder="¿Cuántos?">
+
+        <br>
+
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Tierra</label>
+        <input type="number" name="tierraCuantos" id="tierraCuantos" placeholder="¿Cuántos?">
+
+        <br><hr>
+
+        <p>¿Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sangria">Sangria</option>     
+
+        </select>
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+        <br><br>
+
+        <br><br>
+
+        <a href="./menuTaqueria.html">
+            <input type="button" value="Regresar al menú ">
+        </a>
+      
+    </form>
+    
+</body>
+</html>
